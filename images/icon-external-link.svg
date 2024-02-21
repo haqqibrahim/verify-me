@@ -1,0 +1,7 @@
+<svg id="External_link" data-name="External link" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <rect id="Bounding_box" data-name="Bounding box" width="16" height="16" fill="none"/>
+  <g id="Group_41" data-name="Group 41" transform="translate(1.601 1.6)">
+    <path id="Path_51" data-name="Path 51" d="M13.209,9.963a.674.674,0,0,0-.674.674v3.789a.59.59,0,0,1-.589.589H4.364a.59.59,0,0,1-.59-.589V6.848a.59.59,0,0,1,.59-.589H8.471a.674.674,0,1,0,0-1.347H4.364A1.937,1.937,0,0,0,2.426,6.848v7.579a1.937,1.937,0,0,0,1.938,1.937h7.582a1.937,1.937,0,0,0,1.938-1.937V10.637A.674.674,0,0,0,13.209,9.963Z" transform="translate(-2.426 -3.563)" fill="#254a7e" fill-rule="evenodd"/>
+    <path id="Path_52" data-name="Path 52" d="M19.829,2.8a.675.675,0,0,0-.621-.417H15.853a.674.674,0,0,0,0,1.348h1.736l-4.9,4.913a.672.672,0,0,0,.949.953l4.9-4.913V6.426a.671.671,0,1,0,1.343,0V3.059A.676.676,0,0,0,19.829,2.8Z" transform="translate(-7.081 -2.384)" fill="#254a7e" fill-rule="evenodd"/>
+  </g>
+</svg>
